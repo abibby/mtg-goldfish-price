@@ -1,0 +1,6 @@
+version: "3"
+services:
+  mtg-goldfish-price:
+    build: .
+    ports:
+      - 9800:9800
